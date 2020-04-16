@@ -104,7 +104,7 @@ for (p in 1:PRUEBAS) {
       
       # Create gamma discount for the "patience" of every men
       
-      gammadiscount <- 0.6
+      gammadiscount <- 0.8
       
       #Now the function
 
