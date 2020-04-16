@@ -24,12 +24,12 @@ Iteracion <- 0
 for (p in 1:PRUEBAS) {
   for(m in 4:6) {
     for (n in 4:6) {
-      
+
       Personality = 8
-      
+
       #This parameters will be 1 for time, 2 for sex, 3 for appareance
       #4 for richness, 5 for inteligence, 6 for attitude, 7 for EconValue
-      
+
       ## Also define the number of social sparcity by a m*n dimensional matrix
       
       SpaceM = m
@@ -104,11 +104,10 @@ for (p in 1:PRUEBAS) {
       
       # Create gamma discount for the "patience" of every men
       
-      gammadiscount <- 0.5
+      gammadiscount <- 0.4
       
       #Now the function
-      
-      
+
       for (i in 1:SpaceM) {
         for (j in 1:SpaceN) {
           
